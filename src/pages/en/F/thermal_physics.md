@@ -68,3 +68,28 @@ $p_c, V_c$ and $T_c$ are the values at the critical point.
 $$
 pV^\gamma = \text{const}, \hspace{1em} TV^{\gamma-1} = \text{const}, \hspace{1em} Tp^{-(\gamma-1)/\gamma} = \text{const}, \hspace{1em} \gamma = \frac{C_p}{C_v}
 $$
+
+## Thermal Capacity
+**Expressions for $C_V$ and $C_p$ in a closed system doing pV-work**
+$$
+C_V = \left( \frac{\partial U}{\partial T} \right)_V \\
+C_P = \left( \frac{\partial U}{\partial T} \right)_P + p \left( \frac{\partial V}{\partial T} \right)_P = \left( \frac{\partial H}{\partial T} \right)_P \\
+C_V = T \left( \frac{\partial S}{\partial T} \right)_V, \hspace{1em} C_P = T \left( \frac{\partial S}{\partial T} \right)_P
+$$
+
+**Relations between $C_V$ and $C_p$**
+$$
+C_p - C_V = \frac{T V \Beta^2}{\kappa_T} \\
+C_p - C_V = \left( \left( \frac{\partial U}{\partial V} \right)_T + p \right)\left( \frac{\partial V}{\partial T}\right)_p
+$$
+
+In particular, for an idea gas
+$$
+C_p = C_V + n R
+$$
+
+**Specific heat capacity**
+$$
+c_V = \frac{C_V}{m}, \hspace{1em} c_p = \frac{C_p}{m}
+$$
+The molar heat capacity is found by division by $n$ instead.
