@@ -55,6 +55,18 @@ export const SIDEBAR = {
 		{ text: "Solid State Physics" },
 		{ text: "Astrophysics and Geophysics" },
 
-		{ text: "Physical Formulae and Diagrams", header: true, acronym: "F"}
+		{ text: "Physical Formulae and Diagrams", header: true, acronym: "F"},
+		{ text: "Classical Mechanics and Relativity" },
+		{ text: "Thermal Physics", link: "en/F/thermal_physics" },
+		{ text: "Electromagnetic Theory" },
+		{ text: "Electronics" },
+		{ text: "Waves" },
+		{ text: "Quantum Mechanics" },
+		{ text: "Atomic and Molecular Physics" },
+		{ text: "Nuclear and Subnuclear Physics" },
+		{ text: "Statistical Physics" },
+		{ text: "Solid State Physics" },
+		{ text: "Astrophysics and Geophysics" },
+		{ text: "Solid Mechanics" },
 	],
 };

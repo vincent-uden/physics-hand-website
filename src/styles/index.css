@@ -28,6 +28,12 @@ body {
 	font-size: clamp(0.9rem, 0.75rem + 0.375vw + var(--user-font-scale), 1rem);
 	line-height: 1.5;
 	max-width: 100vw;
+
+	transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+body * {
+	transition: background-color .3s ease-in-out;
 }
 
 nav ul {
