@@ -93,3 +93,52 @@ $$
 c_V = \frac{C_V}{m}, \hspace{1em} c_p = \frac{C_p}{m}
 $$
 The molar heat capacity is found by division by $n$ instead.
+
+## Thermodynamic Relations
+
+**First Law of Thermodynamics**
+$$
+dU = \Delta Q + \Delta W
+$$
+
+*Example 1 - Pressure-volume work*
+$$
+dW = -p dV
+$$
+*Example 2 - Stretching of elastic fibre*
+$$
+dW = J dL
+$$
+*Example 3 - Expansion of liquid surface*
+$$
+dW = \gamma dA
+$$
+*Example 4 - Magnetization $M$ in a homogenous magnetizing field $H$*
+$$
+dW = \mu_0 V H dM
+$$
+*Example 5 - Polarization $P$ in a homogenous electric field $E$*
+$$
+dW = V E dP
+$$
+
+**Internal energy of an ideal gas**
+$$
+\frac{nRT}{\gamma - 1}, \hspace{1em} \gamma = \frac{C_p}{C_V}
+$$
+
+**Entropy**
+$$
+S = k \ln{\Omega}, \hspace{1em} \Omega = \text{multiplicity}
+$$
+
+**Second law of thermodynamics**
+(Principle of increasing entropy in an isolated system)
+$$
+dS \geq 0
+$$
+
+**Entropy Change for a reversible process**
+$$
+dS = \frac{\Delta Q}{T} \\
+dS = 0 \text{ for a reversible and adiabatic process}
