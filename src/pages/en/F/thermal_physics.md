@@ -142,3 +142,45 @@ $$
 $$
 dS = \frac{\Delta Q}{T} \\
 dS = 0 \text{ for a reversible and adiabatic process}
+$$
+
+
+**Central equation of thermodynamics (thermodynamic identity)**
+$$
+dU = T dS - p dV + \mu dN
+$$
+(pressure-volume work, $dN = 0$ for a closed system)
+
+**Carnot cycle**
+
+Efficiency
+$$
+\eta = 1 - \frac{T_2}{T_1}
+$$
+
+Heating factor for raising temperature to $T_1$
+$$
+\varepsilon_h = \frac{T_1}{T_1-T_2}
+$$
+
+Cooling factor for lowering temperature to $T_2$
+$$
+\varepsilon_c = \frac{T_2}{T_1-T_2}, \hspace{1em} \varepsilon_h = 1 + \varepsilon_c
+$$
+
+**Work done in Carnot cycle**
+$$
+W = Q_1 - Q_2 = (T_1-T_2)(S_2-S_1)
+$$
+
+**Work done on the system in adiabatic compression of ideal gas**
+$$
+W = \frac{n R}{\gamma - 1}(T_1 - T_2), \hspace{1em} \gamma = \frac{C_p}{C_V}, \hspace{1em} T_1 > T_2
+$$
+
+**Otto cycle**
+
+Efficiency
+$$
+\eta = 1 - \left( \frac{V_{min}}{V_{max}} \right)^{\gamma - 1}
+$$
